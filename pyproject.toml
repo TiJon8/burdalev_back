@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "burdalev-back"
+version = "0.1.0"
+description = ""
+authors = ["tishka <alex.gromov2@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.114.2"
+sqlalchemy = "^2.0.34"
+psycopg-binary = "^3.2.2"
+greenlet = "^3.1.0"
+uvicorn = "^0.30.6"
+pydantic = "^2.9.1"
+psycopg = "^3.2.2"
+orjson = "^3.10.7"
+pydantic-settings = "^2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
